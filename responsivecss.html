@@ -1,0 +1,267 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .card{
+            max-width:1000px;
+            min-height: 1000px;
+            box-shadow: 0 35px 55px;    
+            
+        }
+        .card .left{
+            background: gray;
+            padding: 20px;
+        }
+        .profile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .profileimg img{
+            border-radius: 50%;    
+        }
+        .profile h2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .title{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .contactInfo ul li{
+            list-style: none;
+            margin: 10px 0; 
+            cursor: pointer;
+        }
+        .contactInfo ul li .icon{
+            display: inline-block;
+            width: 30px;
+            font-size: 18px;
+            color: #03a9f4;
+        }
+        .education li{
+            list-style: none;
+            margin-bottom: 15px;
+        }
+        .education h5{
+            color: #03a9f4;
+            margin: 0 !important;
+        }
+        .education h4{
+            margin: 0 !important;
+        }
+        .language .percentage{
+            width: 100%;
+            height: 6px;
+            background: #081921;
+            display: block;
+            margin-top: 5px;
+        }
+        .language .percentage div{
+            height: 100%;
+            background: #03a9f4;
+        }
+        .language li{
+            list-style: none;
+        }
+        .left ul{
+            padding-inline-start: 0 !important;
+        }
+        .card .right{
+            padding: 20px;
+            
+        }
+        .title2{
+            text-transform: uppercase;
+            color: black;
+        }
+        .about .box{
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0;
+        }
+        .about .box .year_company{
+            width: 200px;
+        }
+        .about .box .year_company h5{
+            text-transform: uppercase;
+            color: #848c90; 
+        }
+        .about .box .text h4{
+            text-transform: uppercase;
+            color: black;
+            font-size: 16px;
+        }
+        .skills .skillsbox h4{
+            text-transform: uppercase;
+            color: #848c99;
+        }
+        .skills .skillsbox .percent{
+            width: 100%;
+            height: 10px;
+            background: #ebe9e9;
+        }
+        .skills .skillsbox .percent div{
+            
+            height: 100%;
+            background: #03a9f4;
+        }
+        .interest li{
+            list-style: none;
+        }
+        .interest ul{
+            padding-inline-start: 0 !important;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .interest ul li .fa{
+            color: #03a9f4;
+        }
+        @media (min-width: 1200px) {
+            .card{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        @media (max-width: 800px){
+            .card{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+</style>
+</head>
+<body>
+    <div class="card">
+        <div class="left">
+            <div class="profile">
+                <div class="profileimg">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHNans8Inxihg/profile-displayphoto-shrink_800_800/0/1637219944577?e=1644451200&v=beta&t=bsGT_fFKxYL-6ybVlY8nH0Amsv-7F3bQHlm4rs2wyUc" width="300" height="300">
+                </div>
+                <h2>Adarsh Vijay<br><span>Full Stack Developer</span></h2>
+            </div>
+            <div class="contactInfo">
+                <h2 class="title">Contact Info</h2>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone"></i></span>
+                        <span class="text">+91 8618025454</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o"></i></span>
+                        <span class="text">adarshvijay3523@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin"></i></span>
+                        <span class="text">www.linkedin.com/in/adarsh-vijay-61202a226</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker"></i></span>
+                        <span class="text">Bangalore, Karnataka, India</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="education">
+                <h2 class="title">Education</h2>
+                <ul>
+                    <li>
+                        <h5>2017-2021</h5>
+                        <h4>BCA</h4>
+                        <h4>Seshadripuram College</h4>
+                    </li>
+                    </ul>
+            </div>
+            <div class="language">
+                <h2 class="title">Languages</h2>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percentage">
+                            <div style="width: 95%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Hindi</span>
+                        <span class="percentage">
+                            <div style="width: 95%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Malayalam</span>
+                        <span class="percentage">
+                            <div style="width: 95%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Kanada</span>
+                        <span class="percentage">
+                            <div style="width: 50%"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>A highly motivated, ambitious, punctual, willing to learn, with a good basic education. A quick learner, ability to work well both independently and as part of a team.<br><br>
+                    To be an astute learner and the best performer in an organization, so that I can build an innovative career in the organization using my skills and other significant talents.</p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2018 - Present</h5>
+                        <h5>Freelancer</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Laptop Technician</h4>
+                        <p>Installing OS and Softwares. Replacing parts like keyboard, mousepad, display, RAM and battery.</p>
+                    </div>
+                </div>               
+            </div>
+            <div class="skills">
+                <h2 class="title2">Professional Skills</h2>
+                <div class="skillsbox">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skillsbox">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skillsbox">
+                    <h4>Git</h4>
+                    <div class="percent">
+                        <div style="width: 5%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="interest">
+                <h4 class="title2">Interest</h4>
+                <ul>
+                    <li><i class="fa fa-book" aria-hidden="true"></i> Reading</li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i> Music</li>
+                    <li><i class="fa fa-code" aria-hidden="true"></i> Coding</li>
+                    <li><i class="fa fa-heartbeat" aria-hidden="true"></i> Meditation</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
